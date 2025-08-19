@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+qdrant-client
+langchain
+langchain-community
+sentence-transformers
+requests
+peft
+openai

@@ -1,0 +1,34 @@
+{
+  "documents": [
+    {
+      "filename": "ISH HAQI SAQLANMAGAN HOLDA TA'TIL BERISH ARIZA NAMUNASI.docx",
+      "title": "Ish haqi saqlanmagan holda ta'tilga chiqish uchun ariza namunasi",
+      "description": "Ishchi o'z hisobidan ta'tilga chiqishi uchun to'ldiradigan ariza"
+    },
+    {
+      "filename": "ISHGA QABUL QILISH ARIZA NAMUNASI.docx",
+      "title": "Ishga qabul qilinish uchun ariza namunasi.",
+      "description": "Yangi ishchi ishga qabul qilinishi uchun yoziladigan ariza namunasi"
+    },
+    {
+      "filename": "LAVOZIMDAN LAVOZIMGA O'TKAZISH.docx",
+      "title": "Lavozimdan lavozimga o'tkazish ariza namunasi",
+      "description": "Lavozimdan boshqa lavozimga o'tkazish uchun kerak bo'lgan ariza namunasi."
+    },
+    {
+      "filename": "MEHNAT SHARTNOMASINI BEKOR QILISH ARIZA NAMUNASI.docx",
+      "title": "Mehnat shartnomasi bekkor qilinish haqida ariza namunasi.",
+      "description": "Ishchi ishda ketish uchun mehnat shartonamasini bekor qiluvchi ariza namunasi."
+    },
+    {
+      "filename": "MEHNAT TATILI BERISH ARIZA NAMUNASI.docx",
+      "title": "Mehnat ta'tili berish ariza namunasi",
+      "description": "Mehnat ta'tiliga chiqish uchun yoziladigan ariza namunasi."
+    },
+    {
+      "filename": "MEHNAT TATILINI QISMLARGA BULIB BERISH ARIZA NAMUNASI.docx",
+      "title": "Mehnat ta'tilini qismlarga bo'lib berish ariza namunasi",
+      "description": "Mehnat ta'tilini qismlarga bo'lib olish uchun yoziladigan ariza namunasi"
+    }
+  ]
+}

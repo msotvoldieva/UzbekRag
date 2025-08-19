@@ -1,0 +1,44 @@
+version: "3.8"
+
+services:
+
+  qdrant:
+    image: qdrant/qdrant
+    ports:
+      - "6335:6333"
+    volumes:
+      - qdrant_data:/qdrant/storage
+
+  # ollama:
+  #   image: ollama/ollama
+  #   ports:
+  #     - "11436:11434"
+  #   volumes:
+  #     - ollama_data:/root/.ollama
+  #   post_start:
+  #     - command: ollama pull wizardlm2:latest && ollama serve
+
+  backend:
+    build: ./backend
+    ports:
+      - "8003:8000"
+    depends_on:
+      - qdrant
+    volumes:
+      - ./backend:/app  
+      - ./GGTexts:/app/GGTexts
+    environment:
+      - OLLAMA_URL=http://host.docker.internal:11434
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "8501:8501"
+    depends_on:
+      - backend
+    volumes:
+      - ./frontend:/app      
+
+volumes:
+  qdrant_data:
+  ollama_data:
