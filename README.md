@@ -1,3 +1,5 @@
+# 🇺🇿 RAG Interface for Legal Docuemt Querying and Downloading
+
 Build the container in docker:
 
 ```
