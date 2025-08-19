@@ -34,7 +34,6 @@ EMBEDDING_MODEL_NAME = "intfloat/multilingual-e5-large-instruct"
 COLLECTION_NAME = "HR_uzb_jina"
 QDRANT_URL = "http://qdrant:6333" 
 OLLAMA_URL = "http://host.docker.internal:11434"
-API_KEY = "AIzaSyCPPHm9Kj4KUZoBjJ2Da-qfRfHckkT6yTI"
 DOCUMENT_METADATA_FILE = "/app/arizalar.json"
 
 # Translations 
