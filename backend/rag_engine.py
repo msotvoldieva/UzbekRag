@@ -15,7 +15,7 @@ import html
 from openai import OpenAI
 import json as json_lib
 
-openai_client = OpenAI(api_key="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")
+openai_client = OpenAI(api_key="API_KEY")
 
 # # Load the model and tokenizer once (outside the function so it's not reloaded every call)
 # MODEL_NAME = "ai-forever/mGPT"  
